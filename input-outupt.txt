@@ -1,0 +1,100 @@
+print(20 > 30)
+print(True>2)
+print("Abc"=="abc")
+print(10 or 20)
+print(0 or False)
+print("abc" or "xyz")
+print(11 & 10)
+print(True << 1)
+print(~5)
+print(bin(10))
+print(oct(10))
+print(hex(10))
+a=10>5
+print(a)
+n1=0o17
+n2=0b1110010
+n3=0x1c2
+n=int(n1)
+print(n)
+n=int(n2)
+print(n)
+n=int(n3)
+print(n)
+n=int(input())
+print(bin(n)[2:])
+n=input("Enter any number")
+m=input("Enter another binary")
+x = int(n,2)+int(m,2)
+y=bin(x)
+print(y)
+print(y[2:])
+n = int(input("Enter a integer"))
+if(n & (n-1))==0:
+    print("Yes")
+else:
+    print("No")
+x = int(input())
+y = int(input())
+x=x^y
+y=x^y
+x=x^y
+print(x,y)
+a = 20
+b =20
+print(id(b))
+print(a is b)
+print(id(a) == id(b))
+#print("Hello"*"python")//error
+print("abcd"[2:])
+print("Hello"[-4:2:-1])
+print(max("Hello Python"))
+a = "Hello Python"
+print("%s"%a[4:1])
+print(a.find('o'))
+print(a.count('o'))
+print("Hello".rfind('l'))
+x,y=10,20
+x,y=y,x
+print(x,y)
+
+
+OUTPUT---------
+False
+False
+False
+10
+False
+abc
+10
+2
+-6
+0b1010
+0o12
+0xa
+True
+15
+114
+450
+5
+101
+Enter any number100
+Enter another binary101
+0b1001
+1001
+Enter a integer8
+Yes
+5
+15
+15 5
+9789600
+True
+True
+cd
+--no output
+y
+--no output
+4
+2
+3
+20 10
