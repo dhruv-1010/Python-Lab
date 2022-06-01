@@ -1,0 +1,7 @@
+n=input("Enter the sentence:")
+words=n.split()
+print(words)
+print(" ".join(words))
+rev=list(reversed(words))
+print(rev)
+print(" ".join(rev))
